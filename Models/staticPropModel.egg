@@ -1,0 +1,182 @@
+<CoordinateSystem> { Z-Up }
+
+<Group> Box001 {
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      15.6879 0.71658 0 1
+    }
+  }
+  <VertexPool> Box001.verts {
+    <Vertex> 0 {
+      5.21935 -3.85844 0
+      <UV> { 1 0 }
+      <Normal> { 0 0 -1 }
+    }
+    <Vertex> 1 {
+      5.21935 5.2916 0
+      <UV> { 1 1 }
+      <Normal> { 0 0 -1 }
+    }
+    <Vertex> 2 {
+      26.1564 5.2916 0
+      <UV> { 0 1 }
+      <Normal> { 0 0 -1 }
+    }
+    <Vertex> 3 {
+      26.1564 -3.85844 0
+      <UV> { 0 0 }
+      <Normal> { 0 0 -1 }
+    }
+    <Vertex> 4 {
+      5.21935 -3.85844 74.0401
+      <UV> { 0 0 }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 5 {
+      26.1564 -3.85844 74.0401
+      <UV> { 1 0 }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 6 {
+      26.1564 5.2916 74.0401
+      <UV> { 1 1 }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 7 {
+      5.21935 5.2916 74.0401
+      <UV> { 0 1 }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 8 {
+      5.21935 -3.85844 0
+      <UV> { 0 0 }
+      <Normal> { 0 -1 0 }
+    }
+    <Vertex> 9 {
+      26.1564 -3.85844 0
+      <UV> { 1 0 }
+      <Normal> { 0 -1 0 }
+    }
+    <Vertex> 10 {
+      26.1564 -3.85844 74.0401
+      <UV> { 1 1 }
+      <Normal> { 0 -1 0 }
+    }
+    <Vertex> 11 {
+      5.21935 -3.85844 74.0401
+      <UV> { 0 1 }
+      <Normal> { 0 -1 0 }
+    }
+    <Vertex> 12 {
+      26.1564 -3.85844 0
+      <UV> { 0 0 }
+      <Normal> { 1 0 0 }
+    }
+    <Vertex> 13 {
+      26.1564 5.2916 0
+      <UV> { 1 0 }
+      <Normal> { 1 0 0 }
+    }
+    <Vertex> 14 {
+      26.1564 5.2916 74.0401
+      <UV> { 1 1 }
+      <Normal> { 1 0 0 }
+    }
+    <Vertex> 15 {
+      26.1564 -3.85844 74.0401
+      <UV> { 0 1 }
+      <Normal> { 1 0 0 }
+    }
+    <Vertex> 16 {
+      26.1564 5.2916 0
+      <UV> { 0 0 }
+      <Normal> { 0 1 0 }
+    }
+    <Vertex> 17 {
+      5.21935 5.2916 0
+      <UV> { 1 0 }
+      <Normal> { 0 1 0 }
+    }
+    <Vertex> 18 {
+      5.21935 5.2916 74.0401
+      <UV> { 1 1 }
+      <Normal> { 0 1 0 }
+    }
+    <Vertex> 19 {
+      26.1564 5.2916 74.0401
+      <UV> { 0 1 }
+      <Normal> { 0 1 0 }
+    }
+    <Vertex> 20 {
+      5.21935 5.2916 0
+      <UV> { 0 0 }
+      <Normal> { -1 0 0 }
+    }
+    <Vertex> 21 {
+      5.21935 -3.85844 0
+      <UV> { 1 0 }
+      <Normal> { -1 0 0 }
+    }
+    <Vertex> 22 {
+      5.21935 -3.85844 74.0401
+      <UV> { 1 1 }
+      <Normal> { -1 0 0 }
+    }
+    <Vertex> 23 {
+      5.21935 5.2916 74.0401
+      <UV> { 0 1 }
+      <Normal> { -1 0 0 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 0 1 2 <Ref> { Box001.verts } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 2 3 0 <Ref> { Box001.verts } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 4 5 6 <Ref> { Box001.verts } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 6 7 4 <Ref> { Box001.verts } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 8 9 10 <Ref> { Box001.verts } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 10 11 8 <Ref> { Box001.verts } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 12 13 14 <Ref> { Box001.verts } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 14 15 12 <Ref> { Box001.verts } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 16 17 18 <Ref> { Box001.verts } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 18 19 16 <Ref> { Box001.verts } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 20 21 22 <Ref> { Box001.verts } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 22 23 20 <Ref> { Box001.verts } }
+  }
+}
